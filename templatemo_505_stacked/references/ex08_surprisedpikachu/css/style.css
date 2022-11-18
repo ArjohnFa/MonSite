@@ -1,0 +1,65 @@
+ body {
+    background-color: #f7e4b7;
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+}
+
+#depart {
+    margin-left: 500px;
+    margin-top: 250px;
+    display: grid;
+    grid-template-columns: 100px 150px 100px 150px 100px;
+    grid-template-rows: 250px 150px 50px 200px 100px;
+}
+
+#depart > img {
+    display: block;
+}
+
+#leye {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#reye {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#nose {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#rcheek {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#lcheek {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#kisser {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#texte_css {
+    position: absolute;
+    top: 600px;
+    font-size: 3em;
+}

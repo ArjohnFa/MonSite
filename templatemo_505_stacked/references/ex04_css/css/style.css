@@ -1,0 +1,19 @@
+#titrePage{
+    color: red;
+    font-size: 3em;
+    text-align: center;
+}
+.paragraphe{
+    text-align: justify
+}
+span{
+    font-size: 2em;
+    font-style: italic;
+    color: green;
+}
+#paragraphe1 > span{
+    color: purple;
+}
+h2:hover{
+    color: whitesmoke;
+}
